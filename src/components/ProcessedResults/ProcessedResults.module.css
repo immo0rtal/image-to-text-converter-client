@@ -1,0 +1,63 @@
+.root {
+  margin-top: 24px;
+  width: 600px;
+}
+
+.header {
+  background-color: black;
+  padding: 8px 16px;
+  border-radius: 12px 12px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  background-color: black;
+  border-radius: 0 0 12px 12px;
+  padding: 8px 16px;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.leftArrow {
+  transform: rotate(180deg);
+}
+
+.pages {
+  font-weight: 500;
+}
+
+.contolArrow {
+  padding: 4px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.contolArrow:hover {
+  opacity: 0.8;
+}
